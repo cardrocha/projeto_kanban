@@ -3,7 +3,9 @@ import * as S from './styled'
 
 const ContainerWorkSpace = () => (
   <div className="container">
-    <h1>Projeto Kanban</h1>
+    <S.Title>
+      <span>Projeto Kanban</span>{' '}
+    </S.Title>
     <S.ContainerWorkSpace>
       <CardContainer />
     </S.ContainerWorkSpace>
