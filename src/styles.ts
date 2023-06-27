@@ -10,7 +10,8 @@ export const colors = {
   darkerRed: '#9D281F',
   white: '#fff',
   black: '#000',
-  gray: '#DDE6ED'
+  gray: '#DDE6ED',
+  darkenBlue: '#0E2954'
 }
 
 const GlobalStyle = createGlobalStyle`
@@ -27,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     background-size: cover;
     z-index: 0;
 
-    &::after {
+    /* &::after {
     position: absolute;
     background-color: ${colors.black};
     width: 100%;
@@ -36,14 +37,15 @@ const GlobalStyle = createGlobalStyle`
     left: 0;
     content: '';
     opacity: 0.3;
-  }
+  } */
 
   }
 
   .container {
-    max-width: 1024px;
+    max-width: 1366px;
     width: 100%;
     margin: 0 auto;
+    padding: 20px;
   }
 `
 export default GlobalStyle

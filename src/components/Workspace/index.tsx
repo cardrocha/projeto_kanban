@@ -1,15 +1,11 @@
 import CardContainer from '../Card'
-import * as S from './styled'
 
-const ContainerWorkSpace = () => (
-  <div className="container">
-    <S.Title>
-      <span>Projeto Kanban</span>{' '}
-    </S.Title>
-    <S.ContainerWorkSpace>
+const ContainerWorkSpace = () => {
+  return (
+    <div className="container">
       <CardContainer />
-    </S.ContainerWorkSpace>
-  </div>
-)
+    </div>
+  )
+}
 
 export default ContainerWorkSpace
